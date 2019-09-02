@@ -16,9 +16,9 @@
 */
 
 
-int redlight = 5;    //Red light is connected to pin 8 of Arduino
-int yellowlight = 6;  //Yellow light is connected to pin 8 of Arduino
-int greenlight = 7;  //Green light is connected to pin 8 of Arduino
+int redlight = 5;    //Red light is connected to pin 5 of Arduino
+int yellowlight = 6;  //Yellow light is connected to pin 6 of Arduino
+int greenlight = 7;  //Green light is connected to pin 7 of Arduino
 
 void setup() {
   pinMode(redlight, OUTPUT);   //Do not edit this line
